@@ -1,0 +1,5 @@
+tensorflow==2.13.1
+tensorflow-recommenders==0.73
+streamlit
+numpy
+pandas

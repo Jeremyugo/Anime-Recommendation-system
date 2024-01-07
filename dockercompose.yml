@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  jupyterlab:
+    user: root
+    build: 
+      context: ./docker/jupyterlab
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB='yes'
+      - GRANT_SUDO='yes'
+      - AUTH_TOKEN
+
+  streamlit:
+    build:
+      context: ./docker/streamlit
+      dockerfile: Dockerfile
+    ports:
+      - 8501:8501
+    command: ["streamlit", "run", "Hello.py", "--server.baseUrlPath", "/app"]
+    volumes:
+      - ./app:/app
+  
