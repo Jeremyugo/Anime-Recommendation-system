@@ -32,7 +32,7 @@ def jaccard_distance():
 
 
 
-df2 = pd.read_csv("/home/ubuntu/datascience/anime_rec/data/processed/cosine.csv")
+df2 = pd.read_csv("/home/ubuntu/datascience/anime_rec/data/processed/cosine_data.csv")
 # dataframe containing User_ID, name, and Feedback
 uis = df2[['User_ID', 'name', 'Feedback']]
 
