@@ -49,14 +49,11 @@ After the successful build, we can access the running services using the followi
 
 
 # Anime Recommender App
-
-![image](https://github.com/Jeremyugo/Anime-Recommender/assets/36512525/85b91cfa-1a33-4d5e-b377-c31caabba1db)
-
-### TensorFlow Recommenders
+#### TensorFlow Recommenders
 
 ![image](https://github.com/Jeremyugo/Anime-Recommender/assets/36512525/e1dc02ad-7f85-4295-bdb7-a5985ad67275)
 
-### jaccard
+#### Jaccard similarity
 
 ![image](https://github.com/Jeremyugo/Anime-Recommender/assets/36512525/f9c27061-fa0a-4821-a249-d2101f0ecbd4)
 
